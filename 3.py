@@ -1,7 +1,7 @@
 import csv
 import string
 headline_list=[]
-with open('news.csv') as csv_file:
+with open('./news.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     for row in csv_reader:
         headline = row[5]

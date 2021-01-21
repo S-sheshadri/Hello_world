@@ -14,8 +14,8 @@ print(n_headlines)
 
 import torchtext
 from torchtext.data import get_tokenizer
-tokenizer = get_tokenizer("basic_english")
-
+#tokenizer = get_tokenizer("basic_english")
+tokenizer = get_tokenizer("spacy")
 token_map = set()
 
 for headline in headline_list:
